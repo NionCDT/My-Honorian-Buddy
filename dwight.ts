@@ -1,2 +1,6 @@
 const dwight = document.getElementById('Submit');
-const murmur = purpur
+
+
+dwight.addEventListener('click', () => {
+    document.body.style.backgroundColor = 'green';
+})
